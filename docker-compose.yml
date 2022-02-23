@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  assistant:
+    build: ./
+    container_name: assistant
+    restart: always
