@@ -61,7 +61,7 @@ class USD:
     @property
     def prices(self) -> list[str, str]:
         """
-        Get BUSD/RUB Price
+        Get USDT/RUB Price
         """
         return {
             "token": "USDT",
